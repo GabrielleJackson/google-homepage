@@ -1,33 +1,43 @@
 <!doctype html>
 <style>
-    form { width: 900px;
-    margin-right: auto;
-    margin-left: auto;
+
+    form { 
+    display: flex;
+    /* use flexbox to help with centering form */
     
-    } /* center form under google logo */
+    
 
-    .center {display: block;
-        margin-left: auto;
-        margin-right: auto;
-    margin-top: 200px;}
+    } /* center google logo on page with flexbox */
 
+    .center {
+        display: flex;
+        align-self: center;
+     
        
+    }
 
         </style>
    
 <html>
     <head></head>
     <body>
+
+        <div>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= "Google logo" class="center"></img>
     
+    </div>
+
 <form action= "/form/submit" method= "GET">
     <div>
         
-    <input type="text" name="text" class="search">
-    <input type="submit" name="submit" class="submit" value="Search"
+    <input type="text" name="text" class="search"> 
+    <br>
+    <button>Google Search</button>
+    <button>I'm Feeling Lucky</button>
 
+    </div>
 </form>
-</div>
+
 </body>
 </body>
     </body>
