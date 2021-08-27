@@ -16,4 +16,20 @@ a:hover{
 
 nav{
     display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+ul > a, ul > img {
+    padding: 0 8px;
+}
+
+.header-img{
+    
 }
